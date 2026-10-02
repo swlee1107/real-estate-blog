@@ -1,0 +1,28 @@
+title: 부동산 인사이트
+description: 한국부동산원 R-ONE 데이터 기반 부동산 시세 분석 블로그
+author: swlee1107
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+header_pages:
+  - about.md
+
+show_excerpts: true
+
+permalink: /:year/:month/:day/:title/
+
+timezone: Asia/Seoul
+
+# 한국어 설정
+lang: ko-KR
+
+# GitHub Pages
+url: "https://swlee1107.github.io"
+baseurl: "/real-estate-blog"
