@@ -13,6 +13,12 @@ plugins:
 
 header_pages:
   - about.md
+  - guide/faq.md
+  - guide/glossary.md
+  - guide/checklist.md
+  - guide/methodology.md
+  - privacy.md
+  - disclaimer.md
 
 show_excerpts: true
 
