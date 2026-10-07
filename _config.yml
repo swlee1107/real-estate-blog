@@ -17,8 +17,6 @@ header_pages:
   - guide/glossary.md
   - guide/checklist.md
   - guide/methodology.md
-  - privacy.md
-  - disclaimer.md
 
 show_excerpts: true
 

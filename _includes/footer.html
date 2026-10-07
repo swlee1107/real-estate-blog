@@ -1,0 +1,46 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+    <!-- 하단 법적 메뉴 -->
+    <div class="footer-legal" style="text-align: center; margin-top: 20px; padding-top: 15px; border-top: 1px solid #e8e8e8;">
+      <ul style="list-style: none; padding: 0; margin: 0; display: inline-block;">
+        <li style="display: inline-block; margin: 0 10px;">
+          <a href="{{ site.baseurl }}/privacy/">개인정보처리방침</a>
+        </li>
+        <li style="display: inline-block; margin: 0 10px;">|</li>
+        <li style="display: inline-block; margin: 0 10px;">
+          <a href="{{ site.baseurl }}/disclaimer/">면책 조항</a>
+        </li>
+      </ul>
+      <p style="font-size: 12px; color: #828282; margin-top: 10px;">
+        © 2026 부동산 인사이트. All rights reserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
